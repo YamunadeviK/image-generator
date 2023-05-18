@@ -1,41 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
-</head>
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+    </head>      
 
 <body>
     <!-- header -->
     <div class="container">
-        <div><img src="index-asset/logo.png" width="200px" alt="" sizes="" srcset=""></div>
+        <div><img src="index-asset/logo.png" width="200px" height="60px" alt="" sizes="" srcset=""></div>
         <div class="web-name">IMAGE GENERATOR</div> 
-        <div><a href="" class="button">Home</a><a href="" class="button">Back</a></div>
+        <div><a href="gallery.html" class="button">Gallery</a></div>
         
     </div>
     <!-- body -->
     <div class="input-group">
+        <form action="output.html">
         <input type="text" class="input" id="prompt" name="prompt" placeholder="Enter your prompt here..." size="90" autocomplete="off">
         <input class="button--submit" value="Generate" type="submit">
+    </form>
     </div>
     <div class="body-continer">
-       
-    <div class="igalary">
-        <img class="gal-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzyxl3OP9YGMdxSRa2S3IXvC7BhGTIqVTOVg&usqp=CAU" alt="" sizes="" width="400vw" height="400vh" srcset="">
-        <div class="text-img">Moon is a non-luminous object as it does not produce its own light. It reflects the light of the sun which makes it appear bright at night.</div>
+    <img src="index-asset/undraw_image_viewer_re_7ejc.svg" alt="" sizes="" srcset="" class="illustration">
+   <div class="text-x">
+    <div class="head">Give color to your Imagination</div>
+    <div class="content" width=""> we are providing you the place to give layout to your imagination by using AI. we will generate image accordinf to your "<span style="color: turquoise;">prompt</span>" and you can save your images here that will make others to use your creation.</div>
+   </div>
+   
     </div>
-    <div class="igalary">
-        <img class="gal-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFI5WPazSXQPyCJ32KVb3lV9IXTWHXt-C9gQ&usqp=CAU" alt="" sizes="" width="400vw" height="400vh" srcset="">
-        <div class="text-img">Sunset, also known as sundown, is the daily disappearance of the Sun below the horizon due to Earth's rotation.</div>
-    </div>
-    <div class="igalary">
-        <img class="gal-img" src="https://i.pinimg.com/736x/23/45/c7/2345c7593955b62291943a5131879ad6.jpg" alt="" sizes="" width="400vw" height="400vh" srcset="">
-        <div class="text-img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam enim deseru</div>
-    </div>
-    
-</div>
+    <div class="head" style="text-align: center; width: 100%;">Recent creations</div>
+    <div class="footer" >
+        <div class="igalary">
+            <img class="gal-img" src="https://cdn.pixabay.com/photo/2023/02/04/21/53/ai-generated-7768239_1280.jpg" alt="" sizes="" width="400vw" height="400vh" srcset="">
+            <div class="text-img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam enim deseru</div>
+            <div><input type="button" class="button-1" value="save"></div>
+        </div>
+        <div class="igalary">
+            <img class="gal-img" src="https://cdn.pixabay.com/photo/2023/02/04/21/53/ai-generated-7768239_1280.jpg" alt="" sizes="" width="400vw" height="400vh" srcset="">
+            <div class="text-img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam enim deseru</div>
+            <div><input type="button" class="button-1" value="save"></div>
+        </div>
+        <div class="igalary">
+            <img class="gal-img" src="https://cdn.pixabay.com/photo/2023/02/04/21/53/ai-generated-7768239_1280.jpg" alt="" sizes="" width="400vw" height="400vh" srcset="">
+            <div class="text-img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam enim deseru</div>
+            <div><input type="button" class="button-1" value="save"></div>
+        </div>
+    </div>   
 </body>
 </html>
